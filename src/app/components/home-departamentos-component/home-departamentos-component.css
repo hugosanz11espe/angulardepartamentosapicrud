@@ -1,0 +1,40 @@
+.tabla {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.tabla thead th {
+  background: #4f46e5;
+  color: #fff;
+  text-align: left;
+  padding: 0.9rem 1.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tabla tbody td {
+  padding: 0.85rem 1.5rem;
+  color: #374151;
+  background: #fff;
+  border-bottom: 1px solid #f1f2f6;
+}
+
+.tabla tbody tr:nth-child(even) td {
+  background: #fafafc;
+}
+
+.tabla tbody tr:hover td {
+  background: #eef2ff;
+}
+
+.tabla tbody tr:last-child td {
+  border-bottom: none;
+}

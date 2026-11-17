@@ -1,0 +1,18 @@
+<table class="tabla">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Localidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (dept of arraydepartamentos; track dept) {
+      <tr>
+        <td>{{ dept.idDepartamento }}</td>
+        <td>{{ dept.nombre }}</td>
+        <td>{{ dept.localidad }}</td>
+      </tr>
+    }
+  </tbody>
+</table>

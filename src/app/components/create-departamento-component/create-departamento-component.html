@@ -1,0 +1,14 @@
+<form #form="ngForm">
+    Id departamento:
+    <input type="number" #cajaid name="cajaid"/>
+    <br/>
+    Nombre: 
+    <input type="text" #cajanombre name="cajanombre"/>
+    <br/>
+    Localidad: 
+    <input type="text" #cajalocalidad name="cajalocalidad"/>
+    <button (click)="insertarDepartamento()">
+        Insertar
+    </button>
+</form>
+<h2 style="color:dodgerblue">{{mensaje}}</h2>

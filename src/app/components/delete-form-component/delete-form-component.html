@@ -1,0 +1,8 @@
+<form #form="ngForm">
+    Id departamento a eliminar: 
+    <input type="number" #cajaid name="cajaid" class="form-control"/>
+    <button class="btn btn-danger" (click)="eliminarDepartamento()">
+        Eliminar
+    </button>
+</form>
+<h2 style="color: dodgerblue;">{{mensaje}}</h2>
